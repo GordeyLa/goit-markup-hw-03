@@ -23,16 +23,7 @@
   --portfolio-primary-background-color: #f5f4fa;
   --portfolio-secondary-background-color: #eeeeee;
 }
-/*html {
-  box-sizing: border-box;
-}
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-*/
 .page {
   background-color: var(--white-color);
   color: var(--primary-text-color);
@@ -113,15 +104,29 @@
   text-transform: uppercase;
   background-color: var(--primary-background-color);
 }
-
+/*Section*/
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section.no-padding {
+  padding-top: 0;
+  padding-bottom: 94;
+}
 .section-title {
   color: var(--primary-text-color);
   margin-top: 0;
   margin-bottom: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
 }
 
 /* Features */
 .feature-list .title {
+  margin-top: 0;
+  margin-bottom: 10px;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -134,15 +139,12 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /*Work*/
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
+
 .work-list .title {
   color: var(--white-color);
   font-weight: 700;
@@ -158,12 +160,17 @@
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 .team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  margin-top: 0;
 }
 /*Clients*/
 
