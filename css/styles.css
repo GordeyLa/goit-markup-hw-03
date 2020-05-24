@@ -43,6 +43,8 @@
   text-decoration: none;
 }
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 /* Logo */
@@ -87,15 +89,26 @@
 .cont-nav a:focus {
   color: var(--accent-color);
 }
-
+/*container*/
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
 /* Hero */
+.hero {
+  text-align: center;
+}
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 46px;
   color: var(--white-color);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
   background-color: var(--primary-background-color);
@@ -103,6 +116,8 @@
 
 .section-title {
   color: var(--primary-text-color);
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 /* Features */
