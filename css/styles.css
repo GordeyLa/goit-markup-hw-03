@@ -233,6 +233,7 @@
   align-items: center;
   list-style: none;
   padding-left: 0;
+  justify-content: space-around;
 }
 /*
 .social-list .item {
@@ -242,6 +243,7 @@
 .client-list {
   display: flex;
   list-style: none;
+  justify-content: space-around;
 }
 .client-list .item:not(:last-child) {
   margin-right: 30px;
@@ -251,6 +253,7 @@
   display: flex;
   background-color: var(--footer-color);
   list-style: none;
+  justify-content: center;
 }
 
 .page-footer .logo {
@@ -300,10 +303,9 @@
 .portfolio-nav {
   display: flex;
   list-style: none;
+  justify-content: center;
 }
-.portfolio-nav .item:not(:last-child) {
-  margin-right: 8px;
-}
+
 .portfolio-nav button {
   color: var(--primary-text-color);
   background-color: var(--portfolio-primary-background-color);
@@ -312,6 +314,7 @@
   line-height: 1.62;
   text-align: center;
   font-family: Roboto, sans-serif;
+  margin-right: 8px;
 }
 
 .portfolio-nav button:hover,
