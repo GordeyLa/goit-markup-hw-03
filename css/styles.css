@@ -255,7 +255,11 @@
   list-style: none;
   justify-content: center;
 }
-
+.footer-s {
+  display: flex;
+  /*justify-content: center;*/
+  justify-content: flex-start;
+}
 .page-footer .logo {
   color: var(--white-color);
   font-family: Raleway;
